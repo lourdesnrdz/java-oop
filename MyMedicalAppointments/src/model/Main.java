@@ -14,16 +14,22 @@ public class Main {
 
         System.out.println(myDoctor);
 
+        User user = new Doctor("Anahi", "ana@ana.com");
+        user.showDataUser();
+
+        User userPa = new Patient("Anahi", "ana@ana.com");
+        userPa.showDataUser();
+
 //        for (model.Doctor.AvailableAppointment aA: myDoctor.getAvailableAppointments()) {
 //            System.out.println(aA.getDate() + " " + aA.getTime());
 //        }
 
-        System.out.println();
-        System.out.println();
-        Patient patient = new Patient("Alejandra", "alejandra@mail.com");
-        Patient patient2 = new Patient("Anahi", "anahi@mail.com");
-
-        System.out.println(patient);
+//        System.out.println();
+//        System.out.println();
+//        Patient patient = new Patient("Alejandra", "alejandra@mail.com");
+//        Patient patient2 = new Patient("Anahi", "anahi@mail.com");
+//
+//        System.out.println(patient);
 
 //        System.out.println(patient.getName());
 //        System.out.println(patient2.getName());
