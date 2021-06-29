@@ -1,8 +1,5 @@
-# java-oop
+# Java SE Object Oriented
 OOP Course Java SE
-
-# Basics of Java 
-Introductory course to Java SE
 
 ## Table of contents
 
