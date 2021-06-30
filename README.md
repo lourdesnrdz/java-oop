@@ -43,3 +43,25 @@ For this course we used 2 versions of OpenJDK.
 2. Download the following versions:
     - OpenJDK 8
     - OpenJDK 11
+
+### Concepts
+
+* **Don't Repeat Yourself:** consists on identifying when we are repeating the same code over and over again, and create a method or function to avoid this.
+* **Inheritance:** consists on creating new classes from other classes, establishing a father - son relationship.
+    * Subclasses can access to all the attributes and methods of the Superclass
+* **Polimorfism:** consists on overriding some methods of the class from which the subclasses inherit from to assign different behaviors.
+* **Interfaces:** is a reference type that contains only constants and method definitions.
+    * Define the form of a class (method names, arguments, return type, but not blocks of code)
+* **Collections:** work with collections of data with the condition that they must be objects.
+* **Abstract Classes:** combination of interfaces and inheritance where we don't need to implemment all the methods nor create instances.
+    * Abstract methods: are the methods that we have to implemment every time we use the abstract class.
+
+#### Difference between an Interface and Abstract Class
+The main difference is when we use an interface and when an abstract class. 
+
+An abstract class is used to define subclasses, it will always be inherited and used to override methods. We can't create instances or objects, therefore it is only useful to redefine new classes without the need to create new objects.
+
+The Interface is similar to this, however, the key difference is that the methods can ve implemmented in many class families (it's not lineal as with inheritance). 
+
+
+
